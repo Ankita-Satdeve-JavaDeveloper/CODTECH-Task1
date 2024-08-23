@@ -43,17 +43,19 @@ The objective of this project is to create a user-friendly calculator that allow
 <br>
 
 🎓 In the Basic Calculator project, several Object-Oriented Programming (OOP) and Java programming concepts are utilized. Below is a detailed explanation of these concepts:
+# Concepts:
+1. Class and Object
+Concept: In Java, a class is a blueprint for creating objects. The class defines the attributes and behaviors that the objects will have.
+Usage: The SimpleCalculator class serves as the blueprint for the application. It encapsulates all the methods and variables needed to perform the calculator's functions. Though the class does not create multiple objects in this case, it acts as the container for the main method and the logic.
+<br>
+<br>
 
 2. Methods
 Concept: Methods in Java are blocks of code that perform specific tasks and can be called to execute the tasks when needed.
 Usage: The main method is the entry point of the Java application. It contains the logic for handling user input, performing operations, and displaying results.
 <br>
 <br>
-1. Class and Object
-Concept: In Java, a class is a blueprint for creating objects. The class defines the attributes and behaviors that the objects will have.
-Usage: The SimpleCalculator class serves as the blueprint for the application. It encapsulates all the methods and variables needed to perform the calculator's functions. Though the class does not create multiple objects in this case, it acts as the container for the main method and the logic.
-<br>
-<br>
+
 3. Control Structures
 Concept: Control structures dictate the flow of the program based on conditions.
 Usage: The if-else control structure is used to determine which arithmetic operation to perform based on the operator input by the user. It also handles error checking, such as division by zero or invalid operator input.
