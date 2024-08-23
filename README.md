@@ -44,6 +44,8 @@ The objective of this project is to create a user-friendly calculator that allow
 
 # In the Basic Calculator project, several Object-Oriented Programming (OOP) and Java programming concepts are utilized. Below is a detailed explanation of these concepts:
 
+
+
 1. Class and Object
 Concept: In Java, a class is a blueprint for creating objects. The class defines the attributes and behaviors that the objects will have.
 Usage: The SimpleCalculator class serves as the blueprint for the application. It encapsulates all the methods and variables needed to perform the calculator's functions. Though the class does not create multiple objects in this case, it acts as the container for the main method and the logic.
