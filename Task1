@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class SimpleCalculator {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Simple Calculator");
+        System.out.print("Input the first number: ");
+        double firstNumber = sc.nextDouble();
+
+        System.out.print("Choose an operation (+, -, *, /): ");
+        String operation = sc.next();
+
+        System.out.print("Input the second number: ");
+        double secondNumber = sc.nextDouble();
+
+        double output = 0;
+        boolean validOperation = true;
+
+        if (operation.equals("+")) {
+            output = firstNumber + secondNumber;
+        } else if (operation.equals("-")) {
+            output = firstNumber - secondNumber;
+        } else if (operation.equals("*")) {
+            output = firstNumber * secondNumber;
+        } else if (operation.equals("/")) {
+            if (secondNumber != 0) {
+                output = firstNumber / secondNumber;
+            } else {
+                System.out.println("Cannot divide by zero.");
+                validOperation = false;
+            }
+        } else {
+            System.out.println("Invalid operator selected.");
+            validOperation = false;
+        }
+
+        if (validOperation) {
+            System.out.printf("Result: %.2f %s %.2f = %.2f%n", firstNumber, operation, secondNumber, output);
+        }
+
+        sc.close();
+    }
+}
