@@ -15,7 +15,7 @@ Mentor: Muzammil Ahmed
 <br>
 <br>
 
-Basic Calculator Project
+#Basic Calculator Project
 Overview
 The Basic Calculator project is a simple console-based application designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The user provides two numerical inputs and selects an arithmetic operation, and the calculator returns the result. This project aims to demonstrate fundamental concepts of Java programming, including input handling, conditional logic, and basic arithmetic operations.
 
