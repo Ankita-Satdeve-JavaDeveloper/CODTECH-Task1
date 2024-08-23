@@ -15,33 +15,24 @@ Mentor: Muzammil Ahmed
 <br>
 <br>
 
-    <title>Basic Calculator Project</title>
-</head>
-<body>
-    <h1>Basic Calculator Project</h1>
+Basic Calculator Project
+Overview
+The Basic Calculator project is a simple console-based application designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The user provides two numerical inputs and selects an arithmetic operation, and the calculator returns the result. This project aims to demonstrate fundamental concepts of Java programming, including input handling, conditional logic, and basic arithmetic operations.
 
-    <h2>Overview</h2>
-    <p>The Basic Calculator project is a simple console-based Java application that performs basic arithmetic operations. It allows users to input two numbers and an operator, then displays the result of the operation. This project is an exercise in fundamental Java programming concepts, including user input handling, conditional logic, and arithmetic operations.</p>
+Objective
+The objective of this project is to create a user-friendly calculator that allows users to perform basic arithmetic operations efficiently and accurately. It also serves as a learning tool to understand the implementation of control structures, user input, and basic error handling in Java.
 
-    <h2>Project Objective</h2>
-    <p>The objective of this project is to develop a functional calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator ensures user-friendly interaction and provides accurate results, with error handling for invalid input and division by zero.</p>
-
-    <h2>Key Activities</h2>
-    <ul>
-        <li>Implementing a simple user interface through the console for input and output.</li>
-        <li>Reading user inputs for the first number, operator, and second number.</li>
-        <li>Processing the inputs based on the selected operator to perform the appropriate arithmetic operation.</li>
-        <li>Displaying the result of the operation to the user.</li>
-        <li>Handling edge cases, such as invalid operators and division by zero, with appropriate error messages.</li>
-        <li>Ensuring the program gracefully handles and exits after completing the operation.</li>
-    </ul>
-
-    <h2>Technologies Used</h2>
-    <ul>
-        <li><strong>Programming Language:</strong> Java</li>
-        <li><strong>IDE:</strong> Any Java-compatible IDE such as IntelliJ IDEA, Eclipse, or NetBeans</li>
-        <li><strong>Version Control:</strong> Git</li>
-        <li><strong>Console I/O:</strong> Java's Scanner class for reading user input and printing output</li>
-    </ul>
-
-
+Key Activities
+User Input Handling: Prompting the user to input two numbers and an arithmetic operator.
+Operation Execution: Performing the selected arithmetic operation based on user input.
+Result Display: Displaying the result of the operation in a clear and formatted manner.
+Error Handling: Managing edge cases such as division by zero and invalid operator selection.
+Technologies Used
+Java: The core programming language used for developing the application.
+JDK: Java Development Kit, required to compile and run the Java program.
+IDE: (Optional) Integrated Development Environment like IntelliJ IDEA or Eclipse can be used for writing and debugging the code.
+Command Line/Terminal: Used to compile and execute the program.
+How to Run
+Compile the Code: Use javac SimpleCalculator.java to compile the code.
+Run the Program: Use java SimpleCalculator to execute the program.
+Follow Prompts: Input the numbers and operator as prompted by the program.
