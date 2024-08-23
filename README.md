@@ -24,13 +24,21 @@ The objective of this project is to create a user-friendly calculator that allow
 
 # Key Activities
 ✅User Input Handling: Prompting the user to input two numbers and an arithmetic operator.
+<br>
 ✅Operation Execution: Performing the selected arithmetic operation based on user input.
+<br>
 ✅Result Display: Displaying the result of the operation in a clear and formatted manner.
+<br>
 ✅Error Handling: Managing edge cases such as division by zero and invalid operator selection.
+<br>
 
 # Technologies Used
 ✅Java: The core programming language used for developing the application.
+<br>
 ✅JDK: Java Development Kit, required to compile and run the Java program.
+<br>
 ✅IDE: (Optional) Integrated Development Environment like IntelliJ IDEA or Eclipse can be used for writing and debugging the code.
+<br>
 ✅Command Line/Terminal: Used to compile and execute the program.
+<br>
 
