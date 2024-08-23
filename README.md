@@ -42,7 +42,6 @@ The objective of this project is to create a user-friendly calculator that allow
 ✅Command Line/Terminal: Used to compile and execute the program.
 <br>
 
-🎓 In the Basic Calculator project, several Object-Oriented Programming (OOP) and Java programming concepts are utilized. Below is a detailed explanation of these concepts:
 # Concepts:
 1. Class and Object
 Concept: In Java, a class is a blueprint for creating objects. The class defines the attributes and behaviors that the objects will have.
